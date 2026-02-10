@@ -7,7 +7,7 @@ public class OrderService {
 private  final PaymentService paymentService;
 private final InventoryService inventoryService;
 
-Public OrderService(PaymentService paymentService,InventoryService inventoryService){
+public  OrderService(PaymentService paymentService,InventoryService inventoryService){
     this.inventoryService=inventoryService;
     this.paymentService=paymentService;
 }
